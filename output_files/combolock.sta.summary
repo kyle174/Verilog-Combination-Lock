@@ -1,0 +1,101 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'inputcond:entercond|y.B'
+Slack : -5.754
+TNS   : -46.385
+
+Type  : Slow 1100mV 85C Model Setup 'Clock'
+Slack : -3.141
+TNS   : -16.029
+
+Type  : Slow 1100mV 85C Model Hold 'Clock'
+Slack : -2.643
+TNS   : -7.411
+
+Type  : Slow 1100mV 85C Model Hold 'inputcond:entercond|y.B'
+Slack : 0.926
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Clock'
+Slack : -0.394
+TNS   : -6.720
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'inputcond:entercond|y.B'
+Slack : 0.407
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'inputcond:entercond|y.B'
+Slack : -5.784
+TNS   : -47.025
+
+Type  : Slow 1100mV 0C Model Setup 'Clock'
+Slack : -2.846
+TNS   : -14.319
+
+Type  : Slow 1100mV 0C Model Hold 'Clock'
+Slack : -2.760
+TNS   : -7.701
+
+Type  : Slow 1100mV 0C Model Hold 'inputcond:entercond|y.B'
+Slack : 0.856
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Clock'
+Slack : -0.394
+TNS   : -7.295
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'inputcond:entercond|y.B'
+Slack : 0.385
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'inputcond:entercond|y.B'
+Slack : -3.101
+TNS   : -24.092
+
+Type  : Fast 1100mV 85C Model Setup 'Clock'
+Slack : -2.310
+TNS   : -11.457
+
+Type  : Fast 1100mV 85C Model Hold 'Clock'
+Slack : -1.271
+TNS   : -3.598
+
+Type  : Fast 1100mV 85C Model Hold 'inputcond:entercond|y.B'
+Slack : 0.721
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Clock'
+Slack : -0.090
+TNS   : -1.155
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'inputcond:entercond|y.B'
+Slack : 0.439
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'inputcond:entercond|y.B'
+Slack : -2.908
+TNS   : -22.941
+
+Type  : Fast 1100mV 0C Model Setup 'Clock'
+Slack : -1.826
+TNS   : -8.842
+
+Type  : Fast 1100mV 0C Model Hold 'Clock'
+Slack : -1.271
+TNS   : -3.593
+
+Type  : Fast 1100mV 0C Model Hold 'inputcond:entercond|y.B'
+Slack : 0.616
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Clock'
+Slack : -0.089
+TNS   : -1.141
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'inputcond:entercond|y.B'
+Slack : 0.455
+TNS   : 0.000
+
+------------------------------------------------------------

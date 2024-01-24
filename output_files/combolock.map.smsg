@@ -1,0 +1,4 @@
+Warning (10268): Verilog HDL information at combolock.v(55): always construct contains both blocking and non-blocking assignments File: C:/Users/User/Desktop/2DA4 LABS/LAB 4/combolock/combolock.v Line: 55
+Info (10281): Verilog HDL Declaration information at combolock.v(8): object "y" differs only in case from object "Y" in the same scope File: C:/Users/User/Desktop/2DA4 LABS/LAB 4/combolock/combolock.v Line: 8
+Info (10281): Verilog HDL Declaration information at inputcond.v(5): object "y" differs only in case from object "Y" in the same scope File: C:/Users/User/Desktop/2DA4 LABS/LAB 4/combolock/inputcond.v Line: 5
+Info (10281): Verilog HDL Declaration information at inputcond.v(3): object "a" differs only in case from object "A" in the same scope File: C:/Users/User/Desktop/2DA4 LABS/LAB 4/combolock/inputcond.v Line: 3
