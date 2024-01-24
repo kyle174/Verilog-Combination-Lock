@@ -1,0 +1,508 @@
+$comment
+	File created using the following command:
+		vcd file combolock.msim.vcd -direction
+$end
+$date
+	Thu Nov 16 12:06:08 2023
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module combolock_vlg_vec_tst $end
+$var reg 1 ! Clock $end
+$var reg 1 " Resetn $end
+$var reg 1 # change $end
+$var reg 1 $ enter $end
+$var reg 4 % password [3:0] $end
+$var wire 1 & changepulse $end
+$var wire 1 ' correct $end
+$var wire 1 ( enterpulse $end
+$var wire 1 ) leds [0] $end
+$var wire 1 * leds [1] $end
+$var wire 1 + leds [2] $end
+$var wire 1 , leds [3] $end
+$var wire 1 - leds [4] $end
+$var wire 1 . leds [5] $end
+$var wire 1 / leds [6] $end
+
+$scope module i1 $end
+$var wire 1 0 gnd $end
+$var wire 1 1 vcc $end
+$var wire 1 2 unknown $end
+$var tri1 1 3 devclrn $end
+$var tri1 1 4 devpor $end
+$var tri1 1 5 devoe $end
+$var wire 1 6 ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 7 Clock~input_o $end
+$var wire 1 8 Clock~inputCLKENA0_outclk $end
+$var wire 1 9 enter~input_o $end
+$var wire 1 : entercond|y.A~0_combout $end
+$var wire 1 ; entercond|y.A~q $end
+$var wire 1 < entercond|Y.B~0_combout $end
+$var wire 1 = entercond|y.B~q $end
+$var wire 1 > password[3]~input_o $end
+$var wire 1 ? Resetn~input_o $end
+$var wire 1 @ Selector11~0_combout $end
+$var wire 1 A Equal0~0_combout $end
+$var wire 1 B change~input_o $end
+$var wire 1 C changecond|y.A~0_combout $end
+$var wire 1 D changecond|y.A~q $end
+$var wire 1 E changecond|Y.B~0_combout $end
+$var wire 1 F changecond|y.B~q $end
+$var wire 1 G Selector6~0_combout $end
+$var wire 1 H Y.000_216~combout $end
+$var wire 1 I y.START~0_combout $end
+$var wire 1 J y.START~q $end
+$var wire 1 K Selector1~0_combout $end
+$var wire 1 L Y.WRONG_198~combout $end
+$var wire 1 M y.WRONG~q $end
+$var wire 1 N WideNor0~0_combout $end
+$var wire 1 O Selector0~0_combout $end
+$var wire 1 P Y.NEW_207~combout $end
+$var wire 1 Q y.NEW~q $end
+$var wire 1 R Selector8~0_combout $end
+$var wire 1 S temp[2]~1_combout $end
+$var wire 1 T password[2]~input_o $end
+$var wire 1 U Selector10~0_combout $end
+$var wire 1 V password[0]~input_o $end
+$var wire 1 W Selector7~0_combout $end
+$var wire 1 X password[1]~input_o $end
+$var wire 1 Y temp[1]~0_combout $end
+$var wire 1 Z Selector9~0_combout $end
+$var wire 1 [ Equal0~1_combout $end
+$var wire 1 \ Selector3~0_combout $end
+$var wire 1 ] Y.ALARM_189~combout $end
+$var wire 1 ^ y.ALARM~q $end
+$var wire 1 _ Selector4~0_combout $end
+$var wire 1 ` Selector5~0_combout $end
+$var wire 1 a Y.OPEN_180~combout $end
+$var wire 1 b y.OPEN~q $end
+$var wire 1 c leds~0_combout $end
+$var wire 1 d Equal0~2_combout $end
+$var wire 1 e temp [3] $end
+$var wire 1 f temp [2] $end
+$var wire 1 g temp [1] $end
+$var wire 1 h temp [0] $end
+$var wire 1 i combo [3] $end
+$var wire 1 j combo [2] $end
+$var wire 1 k combo [1] $end
+$var wire 1 l combo [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1"
+1#
+1$
+b0 %
+0&
+0'
+0(
+0/
+1.
+1-
+1,
+1+
+1*
+1)
+00
+11
+x2
+13
+14
+15
+06
+07
+08
+19
+0:
+0;
+0<
+0=
+0>
+1?
+0@
+0A
+1B
+0C
+0D
+0E
+0F
+1G
+1H
+0I
+0J
+0K
+0L
+0M
+1N
+0O
+0P
+0Q
+1R
+0S
+0T
+1U
+0V
+0W
+0X
+0Y
+1Z
+0[
+0\
+0]
+0^
+1_
+0`
+0a
+0b
+1c
+0d
+0h
+0g
+0f
+0e
+0l
+1k
+1j
+0i
+$end
+#5000
+1!
+17
+18
+#10000
+0#
+b10 %
+b110 %
+0!
+0B
+1X
+1T
+07
+08
+1[
+1E
+1C
+1d
+1'
+#15000
+1!
+17
+18
+1D
+1F
+1&
+1O
+0G
+0E
+0H
+1P
+1I
+#20000
+1#
+0!
+1B
+07
+08
+0C
+#25000
+1!
+17
+18
+1Q
+1J
+0D
+0F
+0&
+0R
+0N
+0-
+0+
+#30000
+0$
+0!
+09
+07
+08
+1<
+1:
+#35000
+1!
+17
+18
+1;
+1=
+1(
+1R
+0O
+1G
+0<
+1H
+0P
+0I
+#40000
+1$
+0!
+19
+07
+08
+0:
+#45000
+1!
+17
+18
+0Q
+0J
+0;
+0=
+0(
+1N
+1-
+1+
+#50000
+0!
+07
+08
+#55000
+1!
+17
+18
+#60000
+0!
+07
+08
+#65000
+1!
+17
+18
+#70000
+0$
+0!
+09
+07
+08
+1<
+1:
+#75000
+1!
+17
+18
+1;
+1=
+1(
+1`
+0G
+0<
+0H
+1a
+1I
+#80000
+1$
+0!
+19
+07
+08
+0:
+#85000
+1!
+17
+18
+1J
+0;
+1b
+0=
+0,
+0(
+1/
+0`
+0R
+1G
+0_
+0c
+0N
+0-
+0+
+0.
+0*
+0)
+#90000
+b100 %
+b0 %
+0!
+0X
+0T
+07
+08
+0[
+0d
+0'
+#95000
+1!
+17
+18
+#100000
+b10 %
+b110 %
+0!
+1X
+1T
+07
+08
+1[
+1d
+1'
+#105000
+1!
+17
+18
+#110000
+0$
+0!
+09
+07
+08
+1<
+1:
+#115000
+1!
+17
+18
+1;
+1=
+1(
+1_
+0<
+1H
+0a
+0I
+#120000
+1$
+0!
+19
+07
+08
+0:
+#125000
+1!
+17
+18
+0J
+0;
+0b
+0=
+1,
+0(
+0/
+1R
+1c
+1N
+1-
+1+
+1.
+1*
+1)
+#130000
+0!
+07
+08
+#135000
+1!
+17
+18
+#140000
+b100 %
+b0 %
+0!
+0X
+0T
+07
+08
+0[
+0d
+0'
+#145000
+1!
+17
+18
+#150000
+0$
+0!
+09
+07
+08
+1<
+1:
+#155000
+1!
+17
+18
+1;
+1=
+1(
+1K
+0G
+0<
+0H
+1L
+1I
+#160000
+1$
+0!
+19
+07
+08
+0:
+#165000
+1!
+17
+18
+1M
+1J
+0;
+0=
+0(
+0R
+#170000
+0!
+07
+08
+#175000
+1!
+17
+18
+#180000
+0!
+07
+08
+#185000
+1!
+17
+18
+#190000
+0$
+0!
+09
+07
+08
+1<
+1:
+#195000
+1!
+17
+18
+1;
+1=
+1(
+1\
+0K
+0<
+0L
+1]
+#200000
