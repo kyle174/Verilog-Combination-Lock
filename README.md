@@ -1,5 +1,8 @@
 # 4-Bit Combination Lock
 
+**Author:** Kyle Andrade  
+**Last Modified:** 2024/01/23
+
 ## Overview
 
 This project focuses on designing and implementing a 4-bit combination lock, with an emphasis on digital design and logic circuits. The lock operates based on a pre-set 4-bit code (X) and validates user input against this combination to determine access.
